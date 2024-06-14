@@ -1,0 +1,6 @@
+- risoluzione di 256 o rettangolare per mantenere ratio
+- rotazioni 
+- preprocess suggeriti dal paper
+
+- provare rete standar, togli mlp e mettere kan
+- provare resnet50 con kan, vgg -> pretreinate e fine-tune

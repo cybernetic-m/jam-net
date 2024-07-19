@@ -18,6 +18,11 @@ As in the literature [1], we have performed a preprocessing operation on images 
 ![Alt Text](images/Filtering.jpg)
 
 # Architecture
+JAM-net is a deep learning architecture composed by the "Fuzzy Channel Selective Spatial Attention Module" of the FA-net [2] and the KAN architecture [3] that substitute the MLP layer at the end.
+![Alt Text](images/architecture.png)
+
+# Results
+The training of the network is done with a batch_size=48, early_stopping monitoring the validation loss with a threshold = 1e-4 and a patience = 2, the optimizer is AdamW with a lr = 0.0001 and finally the loss function is the \bold{Binary Cross Entropy Loss}
 
 # References
 [1]. [Review on chest pathogies detection systems using deep learning techniques](https://link.springer.com/article/10.1007/s10462-023-10457-9#Abs1).

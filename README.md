@@ -26,13 +26,16 @@ The training of the network is done with a **batch_size=48**, **early_stopping**
 **Performances in Gaussian + He**
 
 **Confusion Matrix in Gaussian + He**
-![Alt Text](images/cm.png)
+<img src="images/cm.png" alt="Alt Text" width="600">
+
 
 **Loss Function**
-![Alt Text](images/loss.png)
+<img src="images/loss.png" alt="Alt Text" width="600">
+
 
 **Accuracy**
-![Alt Text](images/acc.png)
+<img src="images/acc.png" alt="Alt Text" width="600">
+
 
 # References
 [1]. [Review on chest pathogies detection systems using deep learning techniques](https://link.springer.com/article/10.1007/s10462-023-10457-9#Abs1).

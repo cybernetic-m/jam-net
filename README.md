@@ -26,15 +26,15 @@ The training of the network is done with a **batch_size=48**, **early_stopping**
 **Performances in Gaussian + He**
 
 **Confusion Matrix in Gaussian + He**
-<img src="images/cm.png" alt="Alt Text" width="600">
+<img src="images/cm.png" alt="Alt Text" width="400">
 
 
 **Loss Function**
-<img src="images/loss.png" alt="Alt Text" width="600">
+<img src="images/loss.png" alt="Alt Text" width="400">
 
 
 **Accuracy**
-<img src="images/acc.png" alt="Alt Text" width="600">
+<img src="images/acc.png" alt="Alt Text" width="400">
 
 
 # References

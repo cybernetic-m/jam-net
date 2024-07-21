@@ -10,12 +10,6 @@ In particular, it's composed by the "**Fuzzy Channel Selective Spatial Attention
  git clone "https://github.com/cybernetic-m/cv-project.git"
  cd cv-project
  ```
-
-2. Install the dependencies:  
-```sh 
-pip install -r requirements.txt
-```
-
 # Project Structure 
 
 ```sh 

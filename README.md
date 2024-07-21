@@ -18,6 +18,7 @@ pip install -r requirements.txt
 
 # Project Structure 
 
+```sh 
 cv-project
 ├── README.md
 ├── images
@@ -41,6 +42,7 @@ cv-project
     ├── KAN- Kolmogorov-Arnold Networks.pdf
     ├── SOTA_chest_ray.pdf
     └── fa_net.pdf
+```
     
 # Dataset
 For the training phase, we have used the [Kermany dataset](https://data.mendeley.com/datasets/rscbjbr9sj/2). It's formed by **5856** chest X-Rays images divided in “**Normal**” and “**Pneumonia**” classes.

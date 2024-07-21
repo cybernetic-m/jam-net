@@ -5,9 +5,43 @@ In particular, it's composed by the "**Fuzzy Channel Selective Spatial Attention
 ![Alt Text](images/architecture.png)
 
 # Installation
+1. Clone the repository:  
+ ```sh 
+ git clone "https://github.com/cybernetic-m/cv-project.git"
+ cd cv-project
+ ```
+
+2. Install the dependencies:  
+```sh 
+pip install -r requirements.txt
+```
 
 # Project Structure 
 
+cv-project
+├── README.md
+├── images
+│   ├── Filtering.jpg
+│   ├── acc.png
+│   ├── architecture.png
+│   ├── cm.png
+│   ├── data_aug.jpg
+│   ├── loss.png
+│   ├── resizing.jpg
+│   └── tab_no_prep.png
+├── models
+│   ├── jam_net_gaussian.pt => Trained model in Gaussian preprocessing
+│   ├── jam_net_gaussian_he.pt => Trained model in Gaussian+He preprocessing
+│   └── jam_net_noprep.pt => Trained model without preprocessing
+├── notebook
+│   ├── notebook_FA_exam.ipynb => Notebook python that implement FA-net training
+│   └── notebook_JAM_exam.ipynb => Notebook python that implement JAM-net training
+└── references
+    ├── A_Deep_Feature_Learning_Model .pdf
+    ├── KAN- Kolmogorov-Arnold Networks.pdf
+    ├── SOTA_chest_ray.pdf
+    └── fa_net.pdf
+    
 # Dataset
 For the training phase, we have used the [Kermany dataset](https://data.mendeley.com/datasets/rscbjbr9sj/2). It's formed by **5856** chest X-Rays images divided in “**Normal**” and “**Pneumonia**” classes.
 The images are of different sized and the dataset is unbalanced, for this reason the code firstly resize the image and after augment the dataset.

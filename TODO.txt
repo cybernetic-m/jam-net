@@ -7,8 +7,8 @@ CODICE:
 - funzione data augm (n_sample, class_to_agument )<- MAX
 
 - testare network in best validation loss e fine training <- JACOPO
-- testare migliore backbone: densenet 121 o 169 ( 169 è la migliore secondo il paper ) <- JACOPO
-- vedere se trainare la densenet <- JACOPO
+- testare migliore backbone: densenet 121 o 169 ( 169 è la migliore secondo il paper ): densenet169, autore ha confermato il codice sul git
+- vedere se trainare la densenet: SI, dal codice sul git
 
 - testare i ckan
 

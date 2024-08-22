@@ -55,7 +55,7 @@ The training of the network is done with a **batch_size=48**, **early_stopping**
 
 **Performances comparison**
 
-<<img src="images/final_metrics.png" alt="Alt Text" width="400">>
+<<img src="images/final_metrics.PNG" alt="Alt Text" width="400">>
 
 
 **Confusion Matrix**

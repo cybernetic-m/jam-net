@@ -80,8 +80,8 @@ Jacopo Tedeschi (https://github.com/jacopotdsc)
 # References
 [1]. [Review on chest pathogies detection systems using deep learning techniques](https://link.springer.com/article/10.1007/s10462-023-10457-9#Abs1).
 
-[2]. [FA-Net: A Fuzzy Attention-aided Deep Neural Network for Pneumonia Detection in Chest X-Rays](https://arxiv.org/pdf/2406.15117).
-
 [3]. [KAN: Kolmogorov–Arnold Networks](https://arxiv.org/pdf/2404.19756).
 
 [4]. [Convolutional Kolmogorov-Arnold Networks](https://arxiv.org/pdf/2406.13155)
+
+[7]. [FA-Net: A Fuzzy Attention-aided Deep Neural Network for Pneumonia Detection in Chest X-Rays](https://arxiv.org/pdf/2406.15117).

@@ -54,7 +54,7 @@ The training of the network is done with a **batch_size=48**, **early_stopping**
 
 **Performances comparison**
 
-<img src="images/tab_no_prep.png" alt="Alt Text" width="300">
+<<img src="images/final_metrics.png" alt="Alt Text" width="400">>
 
 
 **Confusion Matrix**
@@ -69,7 +69,11 @@ The training of the network is done with a **batch_size=48**, **early_stopping**
 
 **Accuracy**
 
-<img src="images/acc.png" alt="Alt Text" width="400">
+<img src="images/accuracy.png" alt="Alt Text" width="400">
+
+
+# Collaborators
+Jacopo Tedeschi (https://github.com/)jacopotdsc
 
 
 # References
@@ -78,3 +82,5 @@ The training of the network is done with a **batch_size=48**, **early_stopping**
 [2]. [FA-Net: A Fuzzy Attention-aided Deep Neural Network for Pneumonia Detection in Chest X-Rays](https://arxiv.org/pdf/2406.15117).
 
 [3]. [KAN: Kolmogorov–Arnold Networks](https://arxiv.org/pdf/2404.19756).
+
+[4]. [Convolutional Kolmogorov-Arnold Networks](https://arxiv.org/pdf/2406.13155)

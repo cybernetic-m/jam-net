@@ -17,25 +17,26 @@ cv-project
 ├── README.md
 ├── images
 │   ├── Filtering.jpg
-│   ├── acc.png
+│   ├── accuracy.png
 │   ├── architecture.png
 │   ├── cm.png
 │   ├── data_aug.jpg
 │   ├── loss.png
 │   ├── resizing.jpg
-│   └── tab_no_prep.png
+│   └── final_metrics.png
 ├── models
-│   ├── jam_net_gaussian.pt => Trained model in Gaussian preprocessing
-│   ├── jam_net_gaussian_he.pt => Trained model in Gaussian+He preprocessing
-│   └── jam_net_noprep.pt => Trained model without preprocessing
+│   ├── fa_net_best.pt => Trained model on full dataset with best performance on loss
+│   ├── jam_net_best.pt => Trained model on full dataset with best performance on loss
+│   └── jam_net_last_epoch.pt =>Trained model on full dataset at last epoch
 ├── notebook
-│   ├── notebook_FA_exam.ipynb => Notebook python that implement FA-net training
-│   └── notebook_JAM_exam.ipynb => Notebook python that implement JAM-net training
+│   ├── FA_ckan.ipynb => Notebook python that implement FA-net training with ckan
+│   └── JAM_full.ipynb => Notebook python that implement JAM-net training
 └── references
     ├── A_Deep_Feature_Learning_Model .pdf
     ├── KAN- Kolmogorov-Arnold Networks.pdf
     ├── SOTA_chest_ray.pdf
     └── fa_net.pdf
+    └── CKAN.pdf
 ```
     
 # Dataset
@@ -73,7 +74,7 @@ The training of the network is done with a **batch_size=48**, **early_stopping**
 
 
 # Collaborators
-Jacopo Tedeschi (https://github.com/)jacopotdsc
+Jacopo Tedeschi (https://github.com/jacopotdsc)
 
 
 # References
